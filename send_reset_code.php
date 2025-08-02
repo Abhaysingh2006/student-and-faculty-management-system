@@ -42,7 +42,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->Port       = 587;
 
             // Recipients
-            $mail->setFrom('20abhay06@gmail.com', 'Password Reset');
+            $mail->setFrom('FAKE_EMAIL@gmail.com', 'Password Reset');
             $mail->addAddress($email);
 
             // Content
@@ -70,4 +70,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 ?>
+
 
