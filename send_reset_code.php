@@ -36,8 +36,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
           $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = '20abhay06@gmail.com';         // Your Gmail address
-        $mail->Password   = 'pffhhuvojfdwwgve';  // Paste the app password here
+        $mail->Username   = 'FAKE_EMAIL@gmail.com';         // Your Gmail address
+        $mail->Password   = 'FAKE_APP_PASSEORD';  // Paste the app password here
         $mail->SMTPSecure = 'tls';
         $mail->Port       = 587;
 
@@ -70,3 +70,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 ?>
+
